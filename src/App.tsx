@@ -4,6 +4,7 @@ import logo from './assets/logo.svg'
 import { Pesquisar } from './components/Pesquisar';
 import './lib/dayjs'
 import { LoginCadastro } from './components/LoginCadastro';
+import { Popup } from './components/Popup';
 
 export function App() {
   return (
@@ -22,6 +23,7 @@ export function App() {
       <LoginCadastro/>
       </div>
       </div>
+      <Popup/>
     </div>
   )
 }

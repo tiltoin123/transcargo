@@ -4,6 +4,8 @@ import logo from './assets/logo.svg'
 import { Pesquisar } from './components/Pesquisar';
 import { LoginCadastro } from './components/LoginCadastro';
 import { Popup } from './components/Popup';
+import { Cadastro } from './components/Cadastro';
+import { TabelaCargas } from './components/TabelaCargas';
 
 
 export function App() {
@@ -22,6 +24,9 @@ export function App() {
         <div className="absolute top-0 right-20">
           <LoginCadastro />
         </div>
+          <Popup/>
+          <Cadastro/>
+          <TabelaCargas/>
       </div>
     </div>
   )

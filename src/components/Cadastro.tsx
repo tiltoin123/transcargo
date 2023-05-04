@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Cadastro() {
   return (
-    <div className="flex justify-center">
+    <div className="h-100% w-20% flex justify-center">
       <form className="bg-white p-8 rounded-md shadow-lg">
         <h2 className="text-2xl font-bold mb-4">Ficha de Cadastro</h2>
         <div className="mb-4">
